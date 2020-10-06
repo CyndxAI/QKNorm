@@ -1,0 +1,1 @@
+python3 main.py --mode train --data-dir ./data --dump-dir ./dump --pairs en2vi --config en2vi

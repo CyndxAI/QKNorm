@@ -1,0 +1,9 @@
+cd transformers_without_tears
+### clone and compile fastBPE
+git clone https://github.com/glample/fastBPE.git
+cd fastBPE
+g++ -std=c++11 -pthread -O3 fastBPE/main.cc -IfastBPE -o fast
+cd ..
+### unpack data.zip and apply fastBPE
+unzip data.zip
+python3 preprocessing.py --data-dir data --num-ops 8000 --pairs en2vi --fast ./fastBPE/fast
