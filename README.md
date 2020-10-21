@@ -1,7 +1,7 @@
 # Query-Key Normalization for Transformers
 Alex Henry, Chief AI Officer, Cyndx
 
-This repo contains code for reproducing the results in our paper "Query-Key Normalization for Transformers" (publication forthcoming in Findings of EMNLP 2020).  Our paper builds off the research in "Transformers without Tears" (Nguyen and Salazar, 2019) and accordingly the code for our paper builds off the code they released for theirs (See https://github.com/tnq177/transformers_without_tears).
+This repo contains code for reproducing the results in our paper "Query-Key Normalization for Transformers" (publication forthcoming in Findings of EMNLP 2020; preprint available here: https://arxiv.org/abs/2010.04245).  Our paper builds off the research in "Transformers without Tears" (Nguyen and Salazar, 2019) and accordingly the code for our paper builds off the code they released for theirs (See https://github.com/tnq177/transformers_without_tears).
 
 To reproduce our results on en-vi, unzip the data.zip folder in transformers_without_tears_head_normalized_attention and run the commands in fastBPE_commands.txt.  Then run the code with the input in bash_input.txt.  Our results for other language pairs can be reproduced using the settings and instructions in our paper.
 
